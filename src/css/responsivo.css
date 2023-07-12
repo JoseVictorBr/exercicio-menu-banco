@@ -1,0 +1,33 @@
+@media(max-width: 785px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        font-size: 4rem;
+    }
+
+    .lateral {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .lateral li {
+        padding: 33px 0;
+    }
+
+    .lateral li:last-child {
+        margin-top: 10px;
+    }
+
+    .lateral li a {
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .lateral li a.botao {
+        font-size: 1.8rem;
+        padding: 1.5rem 2.3rem;
+
+    }
+}

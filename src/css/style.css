@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.titulo {
+    position: relative;
+    width: 80px;
+    height: 24px;
+    top: 55px;
+    left: 95px;
+}
+
+.lateral {
+    display: flex;
+    align-items: center;
+}
+
+.lateral li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin: 1.5rem;
+    font-size: 15px;
+}
+
+.lateral li a:hover{
+    background-color: #5BC241;
+    color: white;
+}
+
+.lateral li a.botao {
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
